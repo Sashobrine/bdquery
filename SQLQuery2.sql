@@ -4,5 +4,15 @@ USE DBFORGITHUB
 GO
 CREATE TABLE BDTestTable
 (
-Id INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
-[Text]
+[Id] INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+[Name] NVARCHAR(20),
+[Age] INT NOT NULL
+)
+
+INSERT INTO BDTestTable (Name, Age) VALUES ('John', 25);
+INSERT INTO BDTestTable (Name, Age) VALUES ('Alice', 30);
+INSERT INTO BDTestTable (Name, Age) VALUES ('Bob', 28);
+INSERT INTO BDTestTable (Name, Age) VALUES ('Emily', 35);
+INSERT INTO BDTestTable (Name, Age) VALUES ('Michael', 40);
+
+
