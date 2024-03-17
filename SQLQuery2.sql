@@ -9,3 +9,13 @@ ID INT PRIMARY KEY,
 NAME VARCHAR(20),
 AGE INT
 );
+
+﻿USE TESTDB
+GO
+
+INSERT INTO STUDENTSTABLR
+VALUES
+	('Smith', 12),
+	('Rodriguez', 15),
+	('Müller', 20);
+
